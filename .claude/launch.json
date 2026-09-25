@@ -1,0 +1,14 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "dev",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-lc",
+        "export NVM_DIR=\"$HOME/.nvm\"; source \"$NVM_DIR/nvm.sh\"; nvm use 24.20.0; npm run dev"
+      ],
+      "port": 3000
+    }
+  ]
+}
