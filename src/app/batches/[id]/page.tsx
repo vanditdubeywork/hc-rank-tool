@@ -154,7 +154,7 @@ export default function BatchResultsPage() {
 
       <div className="mt-4 overflow-x-auto rounded-md border">
         <table className="w-full text-left text-sm">
-          <thead className="bg-neutral-50">
+          <thead className="bg-neutral-100 text-neutral-900 dark:bg-neutral-800 dark:text-neutral-100">
             <tr>
               <th className="cursor-pointer px-3 py-2" onClick={() => toggleSort("input_row_number")}>
                 Row
